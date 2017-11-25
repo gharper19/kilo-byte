@@ -8,112 +8,113 @@ public Workout(String[] s, int[] r, int cals) {
 public static ArrayList<Workout> getWorkouts(int calories){
     	//Creates and Returns bank of 18 workout circuits
     	ArrayList<Workout> bank = new ArrayList<Workout>();
+
     	//WO 1
     	String[] s = new String[]{"Push-ups", "Lunges", "Crunches"};
-    	int[] i = new int[]{5, 5, 5};
-    	int c = 27;
+    	int[] i = new int[]{3, 4, 4};
+    	int c = 22;
     	Workout w = new Workout(s, i, c );
     	bank.add(w);
     	//WO 2
     	s = new String[]{"Pull-ups", "Push-ups", "Crunches"};
-    	i = new int[]{5, 5, 5};
-    	c = 40;
+    	i = new int[]{2, 3, 4};
+    	c = 28;
     	w = new Workout(s, i, c);
     	bank.add(w);
-		//WO 3 
+	//WO 3 
     	s = new String[]{"Lunges","Crunches","Pull-ups"};
-    	i = new int[]{5, 5, 5};
-    	c = 32;
+    	i = new int[]{4, 4, 2};
+    	c = 30;
     	w = new Workout(s, i, c);
     	bank.add(w);
     	//WO 4
     	s = new String[]{"Lunges", "Push-ups", "Pull-ups"};
-    	i = new int[]{5, 5, 5};
-    	c = 29;
+    	i = new int[]{4, 3, 2};
+    	c = 25;
     	w = new Workout(s, i, c);
     	bank.add(w);
     	//WO 5
     	s = new String[]{"Dips", "Push-ups", "Pull-ups"};
-    	i = new int[]{5, 5, 5};
-    	c = 45;
+    	i = new int[]{4, 3, 2};
+    	c = 33;
     	w = new Workout(s, i, c);
     	bank.add(w);
     	//WO 6
     	s = new String[]{ "Push-ups", "Lunges", "Dips"};
-    	i = new int[]{5, 5, 5};
-    	c = 37;
+    	i = new int[]{3, 4, 2};
+    	c = 27;
     	w = new Workout(s, i, c);
     	bank.add(w);
     	//WO 7
     	s = new String[]{ "Pull-ups", "Lunges", "Dips"};
-    	i = new int[]{5, 5, 5};
-    	c = 47;
+    	i = new int[]{2, 4, 2};
+    	c = 32;
     	w = new Workout(s, i, c);
     	bank.add(w);
     	//WO 8
     	s = new String[]{ "Crunches", "Lunges", "Dips"};
-    	i = new int[]{5, 5, 5};
-    	c = 27;
+    	i = new int[]{4, 4, 2};
+    	c = 24;
     	w = new Workout(s, i, c);
     	bank.add(w);
     	//WO 9
     	s = new String[]{ "Crunches", "Push-ups", "Dips"};
-    	i = new int[]{5, 5, 5};
-    	c = 37;
+    	i = new int[]{4, 3, 2};
+    	c = 29;
     	w = new Workout(s, i, c);
     	bank.add(w);
     	//WO 10
     	s = new String[]{ "Burpees", "Pull-ups", "Dips"};
-    	i = new int[]{5, 5, 5};
-    	c = 52;
+    	i = new int[]{2, 2, 2};
+    	c = 44;
     	w = new Workout(s, i, c);
     	bank.add(w);
     	//WO 11
     	s = new String[]{ "Squats", "Pull-ups", "Dips"};
-    	i = new int[]{5, 5, 5};
-    	c = 46;
+    	i = new int[]{3, 2, 2};
+    	c = 35;
     	w = new Workout(s, i, c);
     	bank.add(w);
     	//WO 12
     	s = new String[]{ "Crunches", "Squats", "Dips"};
-    	i = new int[]{5, 5, 5};
-    	c = 49;
+    	i = new int[]{4, 3, 2};
+    	c = 37;
     	w = new Workout(s, i, c);
     	bank.add(w);
     	//WO 13
     	s = new String[]{ "Crunches", "Pull-ups", "Squats"};
-    	i = new int[]{5, 5, 5};
-    	c = 45;
+    	i = new int[]{4, 2, 3};
+    	c = 38;
     	w = new Workout(s, i, c);
     	bank.add(w);
     	//WO 14
     	s = new String[]{ "Lunges", "Pull-ups", "Squats"};
-    	i = new int[]{5, 5, 5};
-    	c = 35;
+    	i = new int[]{4, 2, 3};
+    	c = 37;
     	w = new Workout(s, i, c);
     	bank.add(w);
     	//WO 15
     	s = new String[]{ "Lunges", "Push-ups", "Squats"};
-    	i = new int[]{5, 5, 5};
-    	c = 43;
+    	i = new int[]{4, 3, 3};
+    	c = 35;
     	w = new Workout(s, i, c);
     	bank.add(w);
     	//WO 16
     	s = new String[]{ "Lunges", "Crunches", "Squats"};
-    	i = new int[]{5, 5, 5};
-    	c = 47;
+    	i = new int[]{4, 4, 3};
+    	c = 37;
     	w = new Workout(s, i, c);
     	bank.add(w);
     	//WO 17
     	s = new String[]{ "Lunges", "Burpees", "Squats"};
-    	i = new int[]{5, 5, 5};
-    	c = 49;
+    	i = new int[]{4, 2, 3};
+    	c = 39;
     	w = new Workout(s, i, c);
     	bank.add(w);
     	//WO 18
     	s = new String[]{ "Crunches", "Burpees", "Dips"};
-    	i = new int[]{5, 5, 5};
-    	c = 53;
+    	i = new int[]{4, 2, 2};
+    	c = 28;
     	w = new Workout(s, i, c);
     	bank.add(w);
     	return bank;
